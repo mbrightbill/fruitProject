@@ -1,6 +1,10 @@
 body {
 	text-align: center;
-	background:url(http://wallpaperswide.com/download/yellow_day-wallpaper-1280x768.jpg);
+	background: url(../img/background.jpg) fixed top center no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background: cover;
+	background-size: cover;
 }
 
 .top {
@@ -26,6 +30,10 @@ input[type="submit"] {
 .thanks {
 	font-family: fantasy, Tahoma, sans-serif;
 	font-size: 1.25em;
+}
+
+#message {
+	margin-top: 50px;
 }
 
 
