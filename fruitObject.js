@@ -26,4 +26,9 @@ function GuessFruit(answer) {
 
 mainAnswer = new GuessFruit("pineapple");
 
-$("#inputSubmit").on("click", mainAnswer.actualGame);
+$(document).ready(function() {
+
+	$('#target').live("submit", function() {
+		mainAnswer.actualGame();
+	});
+});
