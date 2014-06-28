@@ -1,4 +1,3 @@
-
 $(document).ready(function() {
 	var numberOfGuessesAllowed = 3;
 	var currentGuess = 1;
