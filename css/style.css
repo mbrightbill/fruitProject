@@ -1,0 +1,40 @@
+body {
+	text-align: center;
+	background:url(http://wallpaperswide.com/download/yellow_day-wallpaper-1280x768.jpg);
+}
+
+.top {
+	color: green;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.welcome {
+	font-size: 1.25em;
+	font-family: Baskerville, sans-serif;
+}
+
+input {
+	border: 0; padding: 12px;
+	font-family: impact;
+}
+
+input[type="submit"] {
+	background: limegreen;
+	color: black;
+}
+
+.thanks {
+	font-family: fantasy, Tahoma, sans-serif;
+	font-size: 1.25em;
+}
+
+
+
+
+
+
+
+
+
+
+
